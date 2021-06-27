@@ -1,0 +1,76 @@
+.applicationDetails {
+  padding: 30px 35px;
+}
+
+.applicationDetails h2,
+h3.subTitle {
+  text-align: center;
+}
+
+.applicationDetails h3 {
+  margin-top: 20px;
+}
+
+h3.subTitle {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+#resumePersonalInformation,
+#resumeSummary,
+.resumeLanguages,
+#resumeOther,
+.applicationQuestions,
+.resumeWorkExperiences,
+.resumeAcademicExperiences {
+  padding: 0 20px;
+}
+
+#resumePersonalInformation {
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+#resumeOther {
+  margin-bottom: 20px;
+}
+
+#applicationQuestionAndAnswer {
+  padding-top: 20px;
+  border-top: 1px solid lightgray;
+}
+
+.applicationQuestions {
+  font-weight: bold;
+}
+
+.applicationQuestions:first-of-type {
+  margin-top: 15px;
+}
+
+.applicationAnswers {
+  padding: 0 40px;
+  margin-bottom: 20px;
+}
+
+/* small screens */
+@media only screen and (max-width: 576px) {
+  .applicationDetails {
+    padding: 15px 20px;
+  }
+
+  .applicationDetails p {
+    font-size: 14px;
+  }
+
+  #resumePersonalInformation,
+  #resumeSummary,
+  .resumeLanguages,
+  #resumeOther,
+  .applicationQuestions,
+  .resumeWorkExperiences,
+  .resumeAcademicExperiences {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}

@@ -1,0 +1,12 @@
+.opportunitySearchResults {
+  text-align: center;
+  width: 1600px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.opportunitySearchResults h2 {
+  margin-bottom: 10px;
+}

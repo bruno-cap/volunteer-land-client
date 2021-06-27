@@ -1,0 +1,22 @@
+#resumeListForm {
+  display: none;
+}
+
+.resumeItem {
+  margin-bottom: 5px;
+}
+
+#resumeListContent {
+  padding: 10px 0px 10px 20px;
+}
+
+#addResumeLink {
+  margin-top: 15px;
+}
+
+/* small screens */
+@media only screen and (max-width: 576px) {
+  #resumeListContent {
+    padding: 10px 0px;
+  }
+}

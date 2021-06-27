@@ -1,0 +1,18 @@
+.footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #d8d8d8;
+  margin-top: 50px;
+}
+
+.footer p:first-of-type, .footer p:nth-of-type(2) {
+  font-size: 15px;
+}
+
+
+/* small screens */
+@media only screen and (max-width: 576px) {
+  .footer {
+    margin-top: 20px;
+  }
+}

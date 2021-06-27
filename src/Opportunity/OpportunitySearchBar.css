@@ -1,0 +1,51 @@
+.opportunitySearchBar {
+  background-color: #242287;
+  margin-top: -70px;
+  border-bottom: 10px solid darkred;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+#saveOpportunitySearchFormButton {
+  color: white;
+  font-size: 23px;
+}
+
+.opportunitySearchBar input[type="text"] {
+  border: none;
+  margin: 0;
+}
+
+#opportunitySearchField {
+  border-radius: 0;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-right: 1px solid lightgray;
+}
+
+#locationSearchField {
+  border-radius: 0;
+}
+
+.searchBarCol:last-of-type {
+  margin-top: -0.7px;
+}
+
+#saveOpportunitySearchFormButton {
+  padding: 7.3px 0px;
+  width: 100%;
+  border-radius: 0;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.searchBarCol {
+  padding: 0 !important;
+}
+
+/* small screens */
+@media only screen and (max-width: 576px) {
+  .opportunitySearchBar {
+    margin-top: -30px
+  }
+}

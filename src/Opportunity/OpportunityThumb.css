@@ -1,0 +1,35 @@
+.opportunityThumbImage {
+  margin: -10px -10px 10px -10px;
+}
+
+.opportunityThumbInfo {
+  padding: 5px 15px;
+}
+
+.opportunityThumb p {
+  color: black;
+}
+
+.opportunityThumb img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.opportunityThumb h6 {
+  color: black;
+  margin-bottom: 10px;
+}
+
+.opportunityThumb {
+  height: 500px;
+}
+
+.opportunityThumbDescription {
+  margin-top: 10px;
+  border-top: 1px solid lightgray;
+  padding-top: 10px;
+  font-size: 14px;
+  height: 140px;
+}

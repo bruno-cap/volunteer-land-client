@@ -1,0 +1,12 @@
+.myOpportunitiesNav {
+  margin-bottom: 30px !important;
+}
+
+.myOpportunitiesNav .hyperlinkUnderlineStyling {
+  padding: 5px 0px;
+}
+
+.activeMyOpptLink {
+  border-bottom: 3px solid black;
+  padding: 3px 0px !important;
+}

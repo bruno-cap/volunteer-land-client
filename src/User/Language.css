@@ -1,0 +1,30 @@
+#languageForm {
+  display: none;
+  padding-right: 15px;
+}
+
+.language {
+  margin-bottom: 25px;
+}
+
+#languageContent {
+  padding: 10px 0px 10px 20px;
+}
+
+#addLanguageLink {
+  padding-top: 10px;
+}
+
+.languageTitleAndActions {
+  margin: 5px 0;
+}
+
+/* small screens */
+@media only screen and (max-width: 576px) {
+  #languageContent {
+    padding: 10px 0px;
+  }
+  #languageForm {
+    padding-right: 0px;
+  }
+}

@@ -1,0 +1,45 @@
+#workExperienceForm {
+  display: none;
+  padding-right: 15px;
+}
+
+.workExperience {
+  margin-bottom: 25px;
+}
+
+#workExperienceContent {
+  padding: 10px 0px 10px 20px;
+}
+
+#addWorkExperienceLink {
+  padding-top: 10px;
+}
+
+.jobTitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.jobDescription {
+  margin: 10px 15px;
+}
+
+#currentJobCheckbox {
+  margin-bottom: 15px !important;
+}
+
+.datePickerLabel {
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+/* small screens */
+@media only screen and (max-width: 576px) {
+  #workExperienceContent {
+    padding: 10px 0px;
+  }
+
+  #workExperienceForm {
+    padding-right: 0px;
+  }
+}

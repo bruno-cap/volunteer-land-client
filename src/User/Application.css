@@ -1,0 +1,19 @@
+.application {
+  padding: 30px 35px;
+}
+
+.application h2 {
+  margin-bottom: 25px;
+}
+
+.opportunityQuestion {
+  margin-left: 12px;
+  margin-bottom: 10px;
+}
+
+/* small screens */
+@media only screen and (max-width: 576px) {
+  .application {
+    padding: 15px 20px;
+  }
+}

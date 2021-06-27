@@ -1,0 +1,32 @@
+.opptSaved {
+  text-align: center;
+  width: 1600px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.myOpptThumb {
+  display: inline-block;
+}
+
+.myOpptInfo {
+  padding-bottom: 15px;
+  margin: 0 15px;
+  border-bottom: 1px solid lightgray;
+}
+
+.myOpptThumb a {
+  text-decoration: none !important;
+}
+
+.myOpptInfo p:first-of-type {
+  margin-bottom: 5px;
+}
+
+.myOpptActionInfo {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}

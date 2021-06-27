@@ -1,0 +1,50 @@
+.companyReviews {
+  padding-top: 20px;
+  border-top: 1px solid lightgray;
+}
+
+.reviewForm {
+  display: none;
+  margin-bottom: 20px;
+}
+
+#companyReviewContent {
+  padding: 10px 20px 0px 20px;
+}
+
+#addReviewLink {
+  margin-bottom: 15px;
+}
+
+.reviewIcon {
+  margin-top: -20px;
+  margin-right: 10px;
+}
+
+.reviewInfo p {
+  font-size: 14px;
+}
+
+.reviewContent {
+  padding-top: 5px;
+  padding-left: 45px;
+}
+
+.review {
+  margin-bottom: 20px;
+}
+
+.review:last-of-type {
+  margin-bottom: 10px;
+}
+
+.hideReviewEditDeleteButtons {
+  display: none;
+}
+
+/* small screens */
+@media only screen and (max-width: 576px) {
+  #companyReviewContent {
+    padding: 10px 0px 0px 0px;
+  }
+}

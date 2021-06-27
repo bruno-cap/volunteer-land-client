@@ -1,0 +1,35 @@
+.companyThumbImage {
+  margin: -10px -10px 10px -10px;
+}
+
+.companyThumbInfo {
+  height: 100px;
+}
+
+.companyThumb img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.companyThumb p {
+  color: black;
+}
+
+.companyThumb img {
+  width: 100%;
+}
+
+.companyThumb h6 {
+  color: black;
+}
+
+.companyThumb {
+  height: 400px;
+  margin: 0;
+}
+
+.companyThumbInfo {
+  padding: 5px 15px;
+}

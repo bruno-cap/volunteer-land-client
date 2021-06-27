@@ -1,0 +1,36 @@
+.applicationList {
+  text-align: center;
+  padding: 30px 35px;
+}
+
+.applicationList h3 {
+  margin-bottom: 30px;
+}
+
+.applicationList p {
+  margin-bottom: 10px;
+}
+
+.applicationList a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+#applicants {
+  padding: 0 40px;
+}
+
+/* small screens */
+@media only screen and (max-width: 576px) {
+  .applicationList {
+    padding: 15px 20px;
+  }
+
+  .applicationList p {
+    font-size: 13px;
+  }
+
+  #applicants {
+    padding: 0px;
+  }
+}

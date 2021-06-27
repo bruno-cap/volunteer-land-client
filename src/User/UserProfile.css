@@ -1,0 +1,29 @@
+.userProfile {
+  padding: 30px 35px;
+}
+
+#personalInfoForm {
+  display: none;
+  padding-right: 15px;
+}
+
+#personalInfoContent {
+  padding: 10px 0px 10px 20px;
+}
+
+/* small screens */
+@media only screen and (max-width: 576px) {
+  .userProfile {
+    padding: 15px 20px;
+  }
+
+  .userProfile h2 {
+    font-size: 22px;
+  }
+  .userProfile p {
+    font-size: 13px;
+  }
+  #personalInfoContent {
+    padding: 10px 0px;
+  }
+}

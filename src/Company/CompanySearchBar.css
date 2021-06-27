@@ -1,0 +1,40 @@
+.companySearchBar {
+  margin-top: -70px;
+  margin-bottom: 30px;
+  background-color: #242287;
+  border-bottom: 10px solid darkred;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+#saveCompanySearchFormButton {
+  color: white;
+  font-size: 23px;
+}
+
+.companySearchBar input[type="text"] {
+  border: none;
+  margin: 0;
+}
+
+#companySearchField {
+  border-radius: 0;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-right: 1px solid lightgray;
+}
+
+#saveCompanySearchFormButton {
+  padding: 7.3px 0px;
+  width: 100%;
+  border-radius: 0;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+/* small screens */
+@media only screen and (max-width: 576px) {
+  .companySearchBar {
+    margin-top: -30px
+  }
+}

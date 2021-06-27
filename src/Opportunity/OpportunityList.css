@@ -1,0 +1,12 @@
+.opportunityList {
+  text-align: center;
+  margin-top: 30px;
+  width: 1600px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.opportunityList h2 {
+  margin-bottom: 10px;
+}

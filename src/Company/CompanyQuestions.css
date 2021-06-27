@@ -1,0 +1,50 @@
+.companyQuestions {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid lightgray;
+}
+
+.companyQuestion {
+  margin-bottom: 10px;
+}
+#questionForm {
+  display: none;
+  margin-bottom: 20px;
+}
+
+.hideQuestionEditDeleteButtons {
+  display: none;
+}
+
+#companyQA {
+  padding: 10px 20px;
+}
+
+.loadMore {
+  font-size: 14px;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+#askQuestionLink {
+  margin-bottom: 15px;
+}
+
+.questionEditDeleteButtons {
+  min-width: 50px;
+}
+
+#askQuestionForm {
+  margin-bottom: 20px;
+}
+
+/* small screens */
+@media only screen and (max-width: 576px) {
+  #companyQA {
+    padding: 10px 0px;
+  }
+  
+  .companyQuestions p {
+    font-size: 13px;
+  }
+}

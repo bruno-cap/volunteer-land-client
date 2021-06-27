@@ -1,0 +1,36 @@
+#academicExperienceForm {
+  display: none;
+  padding-right: 15px;
+}
+
+.academicExperience {
+  margin-bottom: 25px;
+}
+
+#academicExperienceContent {
+  padding: 10px 0px 10px 20px;
+}
+
+#addAcademicExperienceLink {
+  padding-top: 10px;
+}
+
+.courseTitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.courseDescription {
+  margin: 10px 15px;
+}
+
+/* small screens */
+@media only screen and (max-width: 576px) {
+  #academicExperienceContent {
+    padding: 10px 0px;
+  }
+
+  #academicExperienceForm {
+    padding-right: 0px;
+  }
+}

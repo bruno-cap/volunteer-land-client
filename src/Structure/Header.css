@@ -1,0 +1,96 @@
+.header {
+  background-color: #242287;
+  border-bottom: 10px solid darkred;
+  margin-bottom: 60px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+#pageTitle {
+  color: white;
+}
+
+p.navItem {
+  display: inline-block;
+  margin: 0 15px;
+  font-size: 18px;
+  color: white;
+}
+
+a.navLink:hover {
+  text-decoration: none !important;
+  padding-bottom: 2px;
+  border-bottom: 4px solid white;
+}
+
+h1 a:hover {
+  text-decoration: none !important;
+}
+
+#nav {
+  background-color: green;
+  margin-bottom: 20px;
+}
+
+#nav p {
+  display: inline-block;
+  margin: 10px 20px;
+}
+
+.navLink {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.navLink:hover {
+  text-decoration: underline !important;
+}
+
+#logoutIcon {
+  cursor: pointer;
+}
+
+.activeNavLink {
+  padding-bottom: 2px;
+  border-bottom: 4px solid white;
+}
+
+/* large screens and lower */
+@media only screen and (max-width: 1200px) {
+  .header h1 {
+    font-size: 25px;
+  }
+
+  p.navItem {
+    font-size: 16px;
+  }
+}
+
+/* medium screens and lower */
+@media only screen and (max-width: 991px) {
+  p.navItem {
+    text-align: center;
+    margin: 10px 0px;
+  }
+
+  p.navItem:first-of-type {
+    margin-top: 20px;
+  }
+
+  #logoutLink:hover {
+    text-decoration: none !important;
+    padding-bottom: 2px;
+    border-bottom: 4px solid white;
+  }
+}
+
+/* small screens */
+@media only screen and (max-width: 576px) {
+  .header {
+    margin-bottom: 20px;
+  }
+}

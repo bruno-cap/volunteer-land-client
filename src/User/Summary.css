@@ -1,0 +1,31 @@
+#nameForm,
+#summaryForm {
+  display: none;
+}
+
+.summary h2 {
+  margin-bottom: 25px;
+}
+
+.summary {
+  margin-bottom: 25px;
+}
+
+#summaryContent {
+  padding: 10px 15px;
+}
+
+#resumeNameContent {
+  padding: 10px 15px 5px 15px;
+  margin-bottom: 25px;
+}
+
+/* small screens */
+@media only screen and (max-width: 576px) {
+  #resumeNameContent {
+    padding: 10px 0px 5px 0px;
+  }
+  #summaryContent {
+    padding: 10px 0px;
+  }
+}

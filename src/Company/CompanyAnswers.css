@@ -1,0 +1,41 @@
+.hideAnswerEditDeleteButtons {
+  display: none;
+}
+
+.companyAnswers {
+  padding: 0px 0px 5px 20px;
+}
+
+.addAnswer {
+  margin-bottom: 8px;
+}
+
+.companyAnswers .timestamp {
+  margin-bottom: 10px;
+}
+
+.answerEditDeleteButtons {
+  min-width: 50px;
+}
+
+p.addAnswer {
+  font-size: 16px !important;
+}
+
+.addAnswerForm,
+.editAnswerForm {
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+/* small screens */
+@media only screen and (max-width: 576px) {
+  .companyAnswers {
+    padding: 0px 0px 5px 0px;
+  }
+
+  .addAnswerForm,
+  .editAnswerForm {
+    margin-right: 0px;
+  }
+}

@@ -1,0 +1,10 @@
+.companySearchResults {
+  width: 1600px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.companySearchResults h2 {
+  margin-bottom: 10px;
+}
